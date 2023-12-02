@@ -9,6 +9,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Models\ErrorViewModel.cs" />
+    <Content Include="Models\Product.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Dapper" Version="2.1.24" />
     <PackageReference Include="MySql.Data" Version="8.2.0" />
   </ItemGroup>
